@@ -1,0 +1,20 @@
+.skills {
+  padding: 10px;
+}
+
+.skills h3 {
+  text-transform: uppercase;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skills ul li {
+  padding: 8px;
+  color: #000;
+  border: solid 2px blueviolet;
+}

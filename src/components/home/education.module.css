@@ -1,0 +1,18 @@
+.education {
+  padding: 10px;
+}
+
+.education h3 {
+  text-transform: uppercase;
+}
+
+.education ol li p {
+  text-transform: uppercase;
+}
+
+.details {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+}

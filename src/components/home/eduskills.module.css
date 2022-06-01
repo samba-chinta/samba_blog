@@ -1,0 +1,9 @@
+.eduskills {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 0 20px;
+}

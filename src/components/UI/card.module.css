@@ -1,0 +1,10 @@
+.card {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  margin: 5px;
+  font-family: sans-serif, serif;
+  box-shadow: 2px 2px 2px #f1f1f1,
+            -2px -2px 2px #fff;
+  border-radius: 3px;
+}

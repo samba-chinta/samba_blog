@@ -1,8 +1,14 @@
-import React from "react";
+import React from "react"
+
+import About from "./components/home/About"
+import EduSkills from "./components/home/EduSkills"
 
 const App = () => {
   return (
-    <div>Hello</div>
+    <div>
+      <About/>
+      <EduSkills/>
+    </div>
   )
 }
 

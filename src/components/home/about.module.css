@@ -1,0 +1,17 @@
+.about-me {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.about-me h3 {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width:600px){
+  .about-me {
+    width: 90%;
+  }
+}

@@ -6,13 +6,20 @@
   text-transform: uppercase;
 }
 
+.education ol li {
+  list-style: none;
+}
+
 .education ol li p {
   text-transform: uppercase;
+  font-weight: bold;
+  color: blueviolet;
 }
 
 .details {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 5px;
 }

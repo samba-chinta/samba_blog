@@ -14,7 +14,15 @@
 }
 
 .skills ul li {
+  width: 30%;
   padding: 8px;
-  color: #000;
-  border: solid 2px blueviolet;
+  /* color: #fff; */
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  /* background-color: blueviolet; */
+}
+
+@media screen and (max-width:799px) {
+  .skills ul li {
+    width: 30%;
+  }
 }

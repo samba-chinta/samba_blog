@@ -1,0 +1,54 @@
+.holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.holder .preview {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  outline: none;
+  border:none;
+}
+
+.holder .details h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.holder .details p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.holder .details button {
+  outline: none;
+  background: none;
+  border: solid 2px blueviolet;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.holder .details button:hover {
+  background-color: blueviolet;
+  transition: all 0.4s ease;
+}
+
+.holder .details button a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.holder .details button:hover a {
+  color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  .holder {
+    display: flex;
+    flex-direction: column;
+  }
+}

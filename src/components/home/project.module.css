@@ -1,0 +1,8 @@
+.project-wrapper {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.project-wrapper h3 {
+  text-transform: uppercase;
+}

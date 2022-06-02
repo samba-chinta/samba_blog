@@ -1,0 +1,36 @@
+.contact-wrapper {
+  width: 99%;
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-wrapper h3 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.contact-wrapper .contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.contact-wrapper .contact-details a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-wrapper .contact-details a:hover {
+  color: aquamarine;
+}
+
+@media screen and (max-width:550px){
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

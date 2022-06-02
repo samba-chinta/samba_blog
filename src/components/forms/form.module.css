@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  width: 350px;
+}
+
+.form input:not([type="submit"]){
+  outline: none;
+  padding: 10px;
+  margin: 5px 0;
+  font-family: sans-serif, serif;
+  border: solid 2px #fff;
+}
+
+.form input:not([type="submit"]):active {
+  border-color: blueviolet;
+}
+
+.form [type="submit"] {
+  outline: none;
+  border: solid 2px blueviolet;
+  color: #fff;
+  font-family: sans-serif, serif;
+  padding: 10px;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.form [type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media screen and (max-width:550px) {
+  .form {
+    width: 300px;
+  }
+}

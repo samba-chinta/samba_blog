@@ -1,11 +1,11 @@
 import React from "react"
 
 import Card from "../UI/Card"
-import classes from "./about.module.css"
+import classes from "../styles/about.module.css"
 
 const About = () => {
   return (
-    <Card className = {classes['about-me']}>
+    <Card className = {classes['about-me']} id="about">
       <h3>About Me</h3>
       <p>
         I'm <b>Chinta Venkata Naga Gopi Samba Siva Reddy</b>.Currently, I am pursuing

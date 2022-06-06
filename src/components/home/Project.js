@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from "../UI/Card";
 import ProjectHolder from "./ProjectHolder";
-import classes from "./project.module.css";
+import classes from "../styles/project.module.css";
 
 const projects = [
   {
@@ -17,7 +17,7 @@ const projects = [
 
 const Project = (props) => {
   return (
-    <Card className = {classes['project-wrapper']}>
+    <Card className = {classes['project-wrapper']} id="projects">
       <h3>Projects</h3>
       {projects.map((project) => (
         <ProjectHolder

@@ -1,6 +1,6 @@
 import React from "react";
 // import {Link} from 'react-router-dom';
-import classes from "./projectholder.module.css";
+import classes from "../styles/projectholder.module.css";
 
 const ProjectHolder = (props) => {
   return (

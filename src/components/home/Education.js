@@ -1,10 +1,10 @@
 import React from "react"
 
-import classes from "./education.module.css"
+import classes from "../styles/education.module.css"
 
 const Education = () => {
   return (
-    <div className={classes.education}>
+    <div className={classes.education} id="education">
       <h3>Education</h3>
       <ol>
         <li>
